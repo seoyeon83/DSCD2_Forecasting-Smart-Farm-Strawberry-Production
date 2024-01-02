@@ -9,7 +9,7 @@
       <a href="https://github.com/seoyeon83">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/seoyeon83.png" width="100px;" alt=""/>
         <br/>
-        <sub>김서연</sub>
+        <sub><b>김서연</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
@@ -20,7 +20,7 @@
       <a href="https://github.com/economy0">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/economy0.png" width="100px;" alt=""/>
         <br />
-        <sub>경재영</sub>
+        <sub><b>경재영</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
@@ -31,7 +31,7 @@
       <a href="https://github.com/SongyeonK">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/SongyeonK.png" width="100px;" alt=""/>
         <br />
-        <sub>김송연</sub>
+        <sub><b>김송연</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
@@ -42,7 +42,7 @@
       <a href="https://github.com/eunbinee14">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/eunbinee14.png" width="100px;" alt=""/>
         <br />
-        <sub>이은빈</sub>
+        <sub><b>이은빈</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
@@ -53,7 +53,7 @@
       <a href="https://github.com/cchhooinaa">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/cchhooinaa.png" width="100px;" alt=""/>
         <br />
-        <sub>조인아</sub>
+        <sub><b>조인아</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
@@ -64,7 +64,7 @@
       <a href="https://github.com/onegyulim">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/onegyulim.png" width="100px;" alt=""/>
         <br />
-        <sub>한규림</sub>
+        <sub><b>한규림</b></sub>
       </a>
         <br>
         <sub>데이터사이언스학과</sub>
