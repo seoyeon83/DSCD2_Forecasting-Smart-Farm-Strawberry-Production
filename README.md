@@ -38,8 +38,6 @@
         <br>
         <sub>21학번</sub>
     </td>
-  </tr>
-  <tr>
     <td align="center">
       <a href="https://github.com/eunbinee14">
         <img src="https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/blob/main/images/eunbinee14.png" width="100px;" alt=""/>
