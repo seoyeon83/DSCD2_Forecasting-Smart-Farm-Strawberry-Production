@@ -154,5 +154,35 @@
     - 종속변수 : 화방별 착과수
     - 독립변수 : 화방별 착과수를 제외한 생육 데이터, 환경(MWS, DAN) 데이터의 변수
     - 지연변수 ‘지난주 착과수’ 추가 : 예측일 대비 날짜가 가까울수록 상관관계가 커짐
- 
+
+- **스케일링**
+    - Robust Scaler
+
+<br/><br/>
+## 5. 모델링
+- **train / test data**
+  - train : 924개(5~25 주 차, 81%)
+  - test : 220개(26~30 주 차, 19%)
+    
+- **모델 선정**
+  - XGBoost
+  - LSTM
+  - GRU
+    
+- **모델별 하이퍼 파라미터 선정**
   
+- **RMSE값 기준 모델 성능 비교**
+    - GRU MWS 유형의 성능이 가장 우수
+  
+<br/><br/>
+## 6. XAI
+> 사용자가 머신 러닝 알고리즘으로 생성된 결과와 출력을 이해하고, 신뢰할 수 있게 하는 일련의 프로세스와 방법
+>
+> XAI를 활용해 GRU_MWS 유형과 GRU_DAN 유형 비교
+  
+- **SHAP 기법**
+  - Summary Plot, Bar Plot, Feature Importance Plot, Dependence Plot 추출
+    
+- **Feature Importance Plot**
+    - GRU MWS 유형의 환경 변수가 상위 변수로 다수 분포
+    - GRU MWS 유형의 변수들이 모델의 예측에 영향력이 있음을 확인
