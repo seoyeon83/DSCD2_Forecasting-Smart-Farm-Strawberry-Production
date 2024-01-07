@@ -3,7 +3,7 @@
 - 코드 정리 중...
 
 <br/><br/>
-## 프로젝트 정보
+## Project Information
 - 현재 농업은 평균 연령 증가, 기후 변화, 환경 오염과 같은 다양한 문제로 인해 지속 가능성에 어려움을 겪고 있습니다.
 - 이런 상황에서 스마트팜은 혁신적인 대안으로 부상하고 있습니다.
 - 본 프로젝트는 스마트팜의 효율적인 운영을 지원하기 위해 **딸기 생산량을 예측하는 모델**을 제공합니다.
@@ -14,7 +14,7 @@
     > 모델 구현:
     
 <br/><br/>
-## 팀원 소개
+## Team Member
 <table>
   <tr>
     <td align="center">
@@ -90,16 +90,16 @@
 </td>
 
 <br/><br/>
-## 1. 개발 환경
+## 1. Development Environment
 - Google Colaboratory
 - python 3.10.12
 
 <br/><br/>
-## 2. 프로젝트 파이프라인
+## 2. Project Pipeline
 ![pipeline](https://github.com/seoyeon83/DSCD2_Forecasting-Smart-Farm-Strawberry-Production/assets/113918499/23331fc3-6d20-442d-8eef-8a14266ef5f8)
 
 <br/><br/>
-## 3. 데이터 수집
+## 3. Data
 > 농촌진흥청, 스마트팜 현장 농가 데이터 내의 시설 채소 중 딸기 농가의 환경, 생육 데이터 이용
   - **환경 데이터**
     - 농가의 내외부 환경 센서 측정 데이터
@@ -120,7 +120,7 @@
     - 생육 데이터 : 3주 이상 기록이 없을 경우 제외 (통일되지 않은 기록 방식)
 
 <br/><br/>
-## 4. 데이터 전처리
+## 4. Pre-processing
 - **환경 데이터**
   - 기록된 측정 시간의 분 단위를 제거
   - 1시간 단위로 맞춰 통일
@@ -159,7 +159,7 @@
     - Robust Scaler
 
 <br/><br/>
-## 5. 모델링
+## 5. Model
 - **train / test data**
   - train : 924개(5~25 주 차, 81%)
   - test : 220개(26~30 주 차, 19%)
@@ -186,3 +186,9 @@
 - **Feature Importance Plot**
     - GRU MWS 유형의 환경 변수가 상위 변수로 다수 분포
     - GRU MWS 유형의 변수들이 모델의 예측에 영향력이 있음을 확인
+
+<br/><br/>
+## 7. Insight
+  - 데이터의 크기의 한계 존재
+  - 데이터의 추세를 반영할 수 있는 보간법, 변수 선정
+  - 다양한 모델 사용 후 적합한 모델 선정
