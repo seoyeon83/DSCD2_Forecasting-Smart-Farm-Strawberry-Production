@@ -178,7 +178,7 @@
 ## 6. XAI
 > 사용자가 머신 러닝 알고리즘으로 생성된 결과와 출력을 이해하고, 신뢰할 수 있게 하는 일련의 프로세스와 방법
 >
-> XAI를 활용해 GRU_MWS 유형과 GRU_DAN 유형 비교
+> **→ XAI를 활용해 GRU_MWS 유형과 GRU_DAN 유형 비교**
   
 - **SHAP 기법**
   - Summary Plot, Bar Plot, Feature Importance Plot, Dependence Plot 추출
